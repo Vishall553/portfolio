@@ -1,13 +1,13 @@
 #navbar{
     display:flex;
     justify-content:space-between;
-    border:2px solid black;
-    background:linear-gradient(to right,#1abc9c,#3498db)
+    background:linear-gradient(skyblue)
 }
 #king{
     display:flex;
     justify-content:space-between;
-    background:linear-gradient(to right,#1abc9c,#3498db)
+    border:2px solid black;
+    background-color:lightblue;
    }
 #samrat{
     display:flex;
@@ -88,9 +88,43 @@
     grid-row-start: 2;
     grid-row-end: 4;
   }
-  
+
+.grid-container3{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap:2px;
+  background-color: lightblue;
+}
+.iteam4,.iteam5,.iteam6{ background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid black;
+  /* grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4; */
 
 
+}
+
+
+ #raju{
+  box-shadow: 10px 10px 20px #babecc,-10px -10px 20px #ffffff;
+  border:2px solid black;
+  margin-left: 30%;
+
+ }
+
+ #raju1{
+  box-shadow: 10px 10px 20px #babecc,-10px -10px 20px #ffffff;
+  border:2px solid black;
+  margin-left: 30%;
+ }
+
+ #info{
+  border: 2px solid black;
+ }
       
     
                     
