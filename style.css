@@ -1,61 +1,78 @@
 #navbar{
     display:flex;
     justify-content:space-between;
-    background:linear-gradient(skyblue);
+    border:2px solid white;
+    background: linear-gradient(to bottom right, #ff9966, #66ccff);
+    position:fixed;
+    padding:12px;
+    top: 0px;
+    right: 0px;
+    left:0px;
+    height: 5vh;
+    padding-bottom: 40px;
 }
+
 #main{
   display:flex;
   justify-content: space-between;
   margin-left:20%;
   margin-right:10%;
+  padding-top:5px;
+  padding-bottom: 20px; 
 }
+
 #king{
     display:flex;
     justify-content:space-between;
     color: white;
    }
+   
 #samrat{
     display:flex;
     justify-content:space-between;
     border:2px solid white;
-    background:linear-gradient(to right,#1abc9c,#3498db)
 }
+
 #vishal{
     display:flex;
     justify-content: space-between;
     width: 100vw;
 }
+
 #karna{
     display:flex;
     justify-content: space-between;
-
 }
+
 #hsc{
     display:flex;
-    justify-content:space-between ;
-    
+    justify-content:space-between ; 
 }
+
 #rohit{
     display:flex;
     justify-content: space-between;
 }
+
 #ul1,#ul2{
     display:flex;
     justify-content: space-between;
 }
+
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
-    grid-gap: 3px; /* Gap between grid items */
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 3px; 
   }
   
   .item {
-    background-color:antiquewhite;
+    background-color: #ff9966;
     padding: 20px;
     text-align: center;
     border:2px solid white;
     color: black;
   }
+
   .grid-container2 {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -63,7 +80,7 @@
   }
   
   .item1 {
-    background-color:antiquewhite;
+    background-color:#ff9966;
     padding: 20px;
     text-align: center;
     border: 2px solid white;
@@ -75,7 +92,7 @@
   }
   
   .item2 {
-    background-color:antiquewhite;
+    background-color:#ff9966;
     padding: 20px;
     text-align: center;
     border: 2px solid white;
@@ -87,9 +104,10 @@
   }
   
   .item3 {
-    background-color:antiquewhite;
+    background-color:#ff9966;
     padding: 20px;
     text-align: center;
+    border: 2px solid white;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -102,37 +120,32 @@
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-gap:3px;
-  /* background-color: lightblue; */
   color: #ffffff;
 }
+
 .iteam4,.iteam5,.iteam6{ background-color: lightblue;
   padding: 20px;
   text-align: center;
-  /* grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 4; */
-
-
 }
-
 
  #raju{
   box-shadow: 10px 10px 20px #babecc,-10px -10px 20px #ffffff;
   margin-left: 30%;
-
  }
 
  #raju1{
   box-shadow: 10px 10px 20px #babecc,-10px -10px 20px #ffffff; 
   margin-left: 30%;
  }
-
+ 
  #info{
   color:white;
  }
- 
 
+#footer{
+  display: flex;
+  justify-content: space-between;
+}
       
     
                     
